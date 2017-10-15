@@ -1,0 +1,28 @@
+1) treat parameters as beta
+2) add bench mark test
+3) add time test
+
+------------------------------------------------
+Logistic Regression using gradient
+Likelihood (iterations 0): -24354.3682307
+Likelihood (iterations 1000): -142.773807197
+Likelihood (iterations 2000): -141.037198227
+Likelihood (iterations 3000): -140.786084807
+Likelihood (iterations 4000): -140.7382833
+Accuracy: 0.9948
+time: 0.937788963318s
+
+------------------------------------------------
+Logistic Regression using hessian
+Likelihood (iterations 0): -1940.78311287
+Likelihood (iterations 2): -485.890918602
+Likelihood (iterations 4): -202.003081284
+Likelihood (iterations 6): -145.035251176
+Likelihood (iterations 8): -140.729401013
+Accuracy: 0.9948
+time: 0.00877022743225s
+
+------------------------------------------------
+Logistic Regression's bench mark
+Accuracy: 0.9948
+time: 0.0151081085205s
